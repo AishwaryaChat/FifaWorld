@@ -1,0 +1,230 @@
+{
+    "total": 211,
+    "listings": [
+        {
+            "uniqueCode": "D01-28",
+            "title": "France",
+            "subtitle": "2006 FIFA World Cup Germany™  \nESP 1 - 3 FRA, **Goal: Franck Ribery 41'**",
+            "image": "https://storage.googleapis.com/prod-fifa-cms-storage/99be7193-626c-464b-9b3a-78fbd2e8236d.png",
+            "lowestPrice": 100,
+            "latestCreatedAt": "2023-02-10T16:55:54.303Z",
+            "rarity": {
+                "code": "10",
+                "color": "#27CFF7",
+                "name": "Common"
+            },
+            "languageCode": "en-UK",
+            "set": {
+                "id": "5c05a7b4-5a93-4ef7-98f2-0cf9fb80124f",
+                "slug": "series-1-common",
+                "name": "Common"
+            },
+            "collection": {
+                "id": "ce82d94c-80b0-498e-add4-db4a235c726b",
+                "slug": "series-1-genesis",
+                "name": "Series 1: Genesis Drop"
+            },
+            "packSlug": "genesis-drop"
+        },
+        {
+            "uniqueCode": "D01-05",
+            "title": "Cameroon",
+            "subtitle": "1990 FIFA World Cup Italy™  \nCMR 2 - 1 COL, **Goal: Roger Milla 106'**",
+            "image": "https://storage.googleapis.com/prod-fifa-cms-storage/85d378aa-6863-43f7-b39d-1763f976afa1.png",
+            "lowestPrice": 500,
+            "latestCreatedAt": "2023-02-10T16:55:25.847Z",
+            "rarity": {
+                "code": "30",
+                "color": "#8055FE",
+                "name": "Epic"
+            },
+            "languageCode": "en-UK",
+            "set": {
+                "id": "49cae155-dfc8-49e9-80ef-3673f7e6a891",
+                "slug": "series-1-epic",
+                "name": "Epic"
+            },
+            "collection": {
+                "id": "ce82d94c-80b0-498e-add4-db4a235c726b",
+                "slug": "series-1-genesis",
+                "name": "Series 1: Genesis Drop"
+            },
+            "packSlug": "genesis-drop"
+        },
+        {
+            "uniqueCode": "D01-27",
+            "title": "Egypt",
+            "subtitle": "2018 FIFA World Cup Russia™  \nKSA 2 - 1 EGY, **Goal: Mohamed Salah 22'**",
+            "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6dafa403-8d84-4ace-8da5-b96723e56ede.png",
+            "lowestPrice": 100,
+            "latestCreatedAt": "2023-02-10T16:30:24.974Z",
+            "rarity": {
+                "code": "10",
+                "color": "#27CFF7",
+                "name": "Common"
+            },
+            "languageCode": "en-UK",
+            "set": {
+                "id": "5c05a7b4-5a93-4ef7-98f2-0cf9fb80124f",
+                "slug": "series-1-common",
+                "name": "Common"
+            },
+            "collection": {
+                "id": "ce82d94c-80b0-498e-add4-db4a235c726b",
+                "slug": "series-1-genesis",
+                "name": "Series 1: Genesis Drop"
+            },
+            "packSlug": "genesis-drop"
+        },
+        {
+            "uniqueCode": "D01-21",
+            "title": "Poland",
+            "subtitle": "1982 FIFA World Cup Spain™  \nPOL 3 - 0 BEL, **Goal: Zbigniew Boniek 4'**",
+            "image": "https://storage.googleapis.com/prod-fifa-cms-storage/655f6404-b4f3-4372-87d9-03eb4ed012cd.png",
+            "lowestPrice": 100,
+            "latestCreatedAt": "2023-02-10T16:29:59.542Z",
+            "rarity": {
+                "code": "20",
+                "color": "#FE36FE",
+                "name": "Rare"
+            },
+            "languageCode": "en-UK",
+            "set": {
+                "id": "f6bc3d21-1893-4577-a282-6d879afe877c",
+                "slug": "series-1-rare",
+                "name": "Rare"
+            },
+            "collection": {
+                "id": "ce82d94c-80b0-498e-add4-db4a235c726b",
+                "slug": "series-1-genesis",
+                "name": "Series 1: Genesis Drop"
+            },
+            "packSlug": "genesis-drop"
+        },
+        {
+            "uniqueCode": "D01-10",
+            "title": "England",
+            "subtitle": "FIFA Women's World Cup France 2019™  \nENG 1 - 2 USA, **Goal: Ellen White 19'**",
+            "image": "https://storage.googleapis.com/prod-fifa-cms-storage/307e8ab5-c06b-4a51-8623-e7250d1e60e0.png",
+            "lowestPrice": 100,
+            "latestCreatedAt": "2023-02-10T16:29:36.650Z",
+            "rarity": {
+                "code": "20",
+                "color": "#FE36FE",
+                "name": "Rare"
+            },
+            "languageCode": "en-UK",
+            "set": {
+                "id": "f6bc3d21-1893-4577-a282-6d879afe877c",
+                "slug": "series-1-rare",
+                "name": "Rare"
+            },
+            "collection": {
+                "id": "ce82d94c-80b0-498e-add4-db4a235c726b",
+                "slug": "series-1-genesis",
+                "name": "Series 1: Genesis Drop"
+            },
+            "packSlug": "genesis-drop"
+        },
+        {
+            "uniqueCode": "D01-22",
+            "title": "Australia",
+            "subtitle": "FIFA Women's World Cup Germany 2011™  \nAUS 3 - 2 EQG, **Goal: Emily van Egmond 48'**",
+            "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9179d6d2-8262-40bb-a128-c6b5898684f3.png",
+            "lowestPrice": 100,
+            "latestCreatedAt": "2023-02-10T16:29:00.484Z",
+            "rarity": {
+                "code": "10",
+                "color": "#27CFF7",
+                "name": "Common"
+            },
+            "languageCode": "en-UK",
+            "set": {
+                "id": "5c05a7b4-5a93-4ef7-98f2-0cf9fb80124f",
+                "slug": "series-1-common",
+                "name": "Common"
+            },
+            "collection": {
+                "id": "ce82d94c-80b0-498e-add4-db4a235c726b",
+                "slug": "series-1-genesis",
+                "name": "Series 1: Genesis Drop"
+            },
+            "packSlug": "genesis-drop"
+        },
+        {
+            "uniqueCode": "D01-15",
+            "title": "Japan",
+            "subtitle": "2010 FIFA World Cup South Africa™  \nDEN 1 - 3 JPN, **Goal: Keisuke Honda 17'**",
+            "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e353d6b0-9f9c-456f-8a7b-e5b4c3a08125.png",
+            "lowestPrice": 100,
+            "latestCreatedAt": "2023-02-10T16:15:31.555Z",
+            "rarity": {
+                "code": "20",
+                "color": "#FE36FE",
+                "name": "Rare"
+            },
+            "languageCode": "en-UK",
+            "set": {
+                "id": "f6bc3d21-1893-4577-a282-6d879afe877c",
+                "slug": "series-1-rare",
+                "name": "Rare"
+            },
+            "collection": {
+                "id": "ce82d94c-80b0-498e-add4-db4a235c726b",
+                "slug": "series-1-genesis",
+                "name": "Series 1: Genesis Drop"
+            },
+            "packSlug": "genesis-drop"
+        },
+        {
+            "uniqueCode": "D01-14",
+            "title": "Argentina",
+            "subtitle": "1990 FIFA World Cup Italy™  \nITA 1 - 1 ARG, **Goal: Claudio Caniggia 68'**",
+            "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a79e75a5-2561-4f71-a077-b319e0d746bf.png",
+            "lowestPrice": 100,
+            "latestCreatedAt": "2023-02-10T16:15:20.391Z",
+            "rarity": {
+                "code": "20",
+                "color": "#FE36FE",
+                "name": "Rare"
+            },
+            "languageCode": "en-UK",
+            "set": {
+                "id": "f6bc3d21-1893-4577-a282-6d879afe877c",
+                "slug": "series-1-rare",
+                "name": "Rare"
+            },
+            "collection": {
+                "id": "ce82d94c-80b0-498e-add4-db4a235c726b",
+                "slug": "series-1-genesis",
+                "name": "Series 1: Genesis Drop"
+            },
+            "packSlug": "genesis-drop"
+        },
+        {
+            "uniqueCode": "D01-34",
+            "title": "Italy",
+            "subtitle": "2002 FIFA World Cup Korea/Japan™  \nITA 2 - 0 ECU, **Goal: Christian Vieri 7'**",
+            "image": "https://storage.googleapis.com/prod-fifa-cms-storage/787adc7f-6719-4552-9522-d5232aeaa632.png",
+            "lowestPrice": 100,
+            "latestCreatedAt": "2023-02-10T16:14:52.272Z",
+            "rarity": {
+                "code": "10",
+                "color": "#27CFF7",
+                "name": "Common"
+            },
+            "languageCode": "en-UK",
+            "set": {
+                "id": "5c05a7b4-5a93-4ef7-98f2-0cf9fb80124f",
+                "slug": "series-1-common",
+                "name": "Common"
+            },
+            "collection": {
+                "id": "ce82d94c-80b0-498e-add4-db4a235c726b",
+                "slug": "series-1-genesis",
+                "name": "Series 1: Genesis Drop"
+            },
+            "packSlug": "genesis-drop"
+        }
+    ]
+}
