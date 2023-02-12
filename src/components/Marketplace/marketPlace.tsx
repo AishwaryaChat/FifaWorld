@@ -15,11 +15,11 @@ const MarketPlace = () => {
     <div>
       <h1 className={styles.title}>Marketplace</h1>
       <Container className={styles.container}>
-        <Grid container spacing={2}>
-          <Grid xs={3}>
+        <Grid container spacing={1}>
+          <Grid xs={4}>
             <Filters />
           </Grid>
-          <Grid xs={9}>
+          <Grid xs={8}>
             <div>
               <NftListing listingData={filterListingData()} />
             </div>
