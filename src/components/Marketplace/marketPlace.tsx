@@ -6,7 +6,7 @@ import NftListing from "./components/nftListing";
 import DATA from "./data.json";
 import { FilterContext } from "src/contexts/filterContext";
 import { useCallback, useContext, useEffect, useState } from "react";
-import {Pagination} from "@mui/material"
+import ErrorComponent from "src/common/components/ErrorSnackbar/errorSnackbar"
 
 const MarketPlace = () => {
   const { filter: { search, range } } = useContext(FilterContext);
@@ -44,7 +44,7 @@ const MarketPlace = () => {
 
   useEffect(() => {
     const newListings = filterListingData("range")
-    
+
     setListingData(newListings)
   }, [range.low, range.high]);
   return (
@@ -57,8 +57,7 @@ const MarketPlace = () => {
           </Grid>
           <Grid xs={8}>
             <div>
-              <NftListing listingData={listings} />
-              <Pagination count={10} />
+              {listings.length > 0 ? <NftListing listingData={listings} /> : <ErrorComponent />}
             </div>
           </Grid>
         </Grid>
