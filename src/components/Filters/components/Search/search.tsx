@@ -19,6 +19,19 @@ const options = [
   { id: "japan", label: "Japan" },
   { id: "argentina", label: "Argentina" },
   { id: "italy", label: "Italy" },
+  { id: "usa", label: "USA" },
+  { id: "portugal", label: "Portugal" },
+  { id: "germany", label: "Germany" },
+  { id: "sweden", label: "Sweden" },
+  { id: "senegal", label: "Senegal" },
+  { id: "south africa", label: "South Africa" },
+  { id: "colombia", label: "Colombia" },
+  { id: "nigeria", label: "Nigeria" },
+  { id: "serbia", label: "Serbia" },
+  { id: "netherlands", label: "Netherlands" },
+  { id: "brazil", label: "Brazil" },
+  { id: "morocco", label: "Morocco" },
+  { id: "korea republic", label: "Korea Republic" },
 ];
 
 const SearchFilter = () => {

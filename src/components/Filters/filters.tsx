@@ -1,10 +1,10 @@
 import SearchFilter from "./components/Search/search";
-import FilterContextProvider from "src/contexts/filterContext";
-
+import PriceRangeFilter from "./components/PriceRange/priceRange";
 const Filters = () => {
   return (
     <div>
         <SearchFilter />
+        <PriceRangeFilter />
     </div>
   );
 };

@@ -1,14 +1,14 @@
 import NFTCard from "./nftCard";
 import { Grid } from "@mui/material";
 
-const NftListing = ({listingData}) => {
+const NftListing = ({ listingData }) => {
   return (
     <Grid container spacing={4}>
       {listingData.map((cardData) => {
-        const {uniqueCode} = cardData
+        const { uniqueCode } = cardData
         return (
           <Grid xs={4} key={uniqueCode}>
-            <NFTCard cardData={cardData}  />
+            <NFTCard cardData={cardData} />
           </Grid>
         );
       })}
