@@ -1,5 +1,1 @@
-export default function MarketPlace() {
-    return (
-        <div>Marketplace</div>
-    )
-}
+export { default } from "src/components/Marketplace/marketPlace";

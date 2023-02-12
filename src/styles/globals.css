@@ -9,6 +9,8 @@ body {
     rgba(9, 9, 121, 1) 35%,
     rgba(2, 0, 36, 1) 100%
   );
+  color: #fff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 @media screen and (max-width: 768px) {
