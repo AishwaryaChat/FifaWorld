@@ -1,5 +1,4 @@
 import { useCallback, useContext, useState } from "react";
-import Box from "@mui/material/Box";
 import {
   TextField,
   IconButton,
@@ -10,7 +9,17 @@ import styles from "./search.module.css";
 import { FilterContext } from "src/contexts/filterContext";
 import SearchIcon from "@mui/icons-material/Search";
 
-const options = ["netherland", "england"];
+const options = [
+  { id: "france", label: "France" },
+  { id: "cameroon", label: "Cameroon" },
+  { id: "egypt", label: "Egypt" },
+  { id: "poland", label: "Poland" },
+  { id: "england", label: "England" },
+  { id: "australia", label: "Australia" },
+  { id: "japan", label: "Japan" },
+  { id: "argentina", label: "Argentina" },
+  { id: "italy", label: "Italy" },
+];
 
 const SearchFilter = () => {
   const { setFilter } = useContext(FilterContext);
@@ -25,13 +34,13 @@ const SearchFilter = () => {
     []
   );
   const handleSearch = () => {
-    setFilter({ type: "UPDATE_SEARCH", data: searchText });
+    setFilter({ type: "UPDATE_SEARCH", data: searchText?.toLowerCase() });
   };
   const handleValueChange = (
     e: React.SyntheticEvent<Element, Event>,
-    value: string | null
+    value: { id: string; label: string } | string | null
   ) => {
-    setSelectedSearchText(value);
+    setSelectedSearchText(value as string);
   };
   return (
     <div>

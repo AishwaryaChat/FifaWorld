@@ -15,7 +15,6 @@ type FilterActionType = {
 };
 
 const filterReducer = (state: FilterStateType, action: FilterActionType) => {
-    console.log("state", state)
   switch (action.type) {
     case "UPDATE_SEARCH":
       return { ...state, search: action.data };

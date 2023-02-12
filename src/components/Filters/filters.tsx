@@ -4,9 +4,7 @@ import FilterContextProvider from "src/contexts/filterContext";
 const Filters = () => {
   return (
     <div>
-      <FilterContextProvider>
         <SearchFilter />
-      </FilterContextProvider>
     </div>
   );
 };
