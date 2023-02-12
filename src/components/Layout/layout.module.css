@@ -1,0 +1,12 @@
+.layout {
+    width: 70%;
+    margin: auto;
+    padding: auto;
+
+}
+
+@media screen and (max-width: 768px) {
+    .layout {
+        width: 100%
+    }
+}
