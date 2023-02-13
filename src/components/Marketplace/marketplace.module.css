@@ -5,3 +5,7 @@
 .title {
     text-transform: uppercase;
 }
+
+.listings-container {
+    min-height: 60vh;
+}
