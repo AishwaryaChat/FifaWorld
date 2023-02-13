@@ -31,7 +31,7 @@ export default function NFTCard({ cardData }) {
   return (
     <Card
       variant="outlined"
-      sx={{ maxWidth: 345, minHeight: 400 }}
+      sx={{ minWidth: 250, minHeight: 400 }}
       classes={{ root: styles["card-container"] }}
     >
       <CardImage src={src} />

@@ -3,7 +3,6 @@ import Box from "@mui/material/Box";
 import Image from "next/image";
 import styles from "./footer.module.css";
 import { Grid } from "@mui/material";
-import classNames from "classnames";
 export default function Footer() {
   const [value, setValue] = React.useState(0);
 
@@ -18,20 +17,14 @@ export default function Footer() {
             height={100}
             className={styles.logo}
           />
-          <div className={styles["footer-links-container"]}>
-            <div className={styles["footer-links"]}>
+          <div className={styles["footer-section-container"]}>
+            <div className={styles["footer-links-container"]}>
               <div>Terms of Service</div>
-              <div className={classNames(styles["margin-left-30"])}>
-                Privacy Policy
-              </div>
-              <div className={classNames(styles["margin-left-30"])}>
-                Cookie Settings
-              </div>
-              <div className={classNames(styles["margin-left-30"])}>
-                Copyrights@aishchat.dev
-              </div>
+              <div>Privacy Policy</div>
+              <div>Cookie Settings</div>
+              <div>Copyrights@aishchat.dev</div>
             </div>
-            <div>Power By: @Aishwarya</div>
+            <div>Powered By: @Aishwarya</div>
           </div>
         </div>
       </div>
