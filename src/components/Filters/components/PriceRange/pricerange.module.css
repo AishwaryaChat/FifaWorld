@@ -1,35 +1,44 @@
-.price-range-container{
-    margin-top: 5rem;
+.price-range-container {
+  margin-top: 5rem;
 }
 
 .price-range-filter-container {
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .text-box {
-    color:white;
-    background: linear-gradient(rgba(9, 9, 121, 1), rgb(106, 0, 255));
-    border-radius: 10px;
-    width: 18.5rem;
-    height: 3.5rem;
-    margin-left: -.5rem;
+  color: white;
+  background: linear-gradient(rgba(9, 9, 121, 1), rgb(106, 0, 255));
+  border-radius: 10px;
+  width: 18.5rem;
+  height: 3.5rem;
+  margin-left: -0.5rem;
 }
 
 .text-box-label {
-    color: white;
+  color: white;
 }
 
 .apply-button {
-    background: linear-gradient(rgb(0, 212, 255, 1), rgba(9, 9, 121, 1));
-    border-radius: 20rem;
-    width: 18.5rem;
-    height: 2.5rem;
-    margin-left: -.5rem;
-    margin-top: 1rem;
+  background: linear-gradient(rgb(0, 212, 255, 1), rgba(9, 9, 121, 1));
+  border-radius: 20rem;
+  width: 18.5rem;
+  height: 2.5rem;
+  margin-left: -0.5rem;
+  margin-top: 1rem;
 }
 
 .dollar-adornment {
-    color: white;
+  color: white;
+}
+
+@media screen and (max-width: 1180px) {
+  .text-box {
+    width: 13rem;
+  }
+  .apply-button {
+    width: 13rem;
+  }
 }

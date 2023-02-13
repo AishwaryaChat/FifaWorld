@@ -1,11 +1,23 @@
 .container {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .title {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .listings-container {
-    min-height: 60vh;
+  min-height: 60vh;
+}
+
+@media screen and (max-width: 756px) {
+  .title {
+    text-align: center;
+  }
+  .container {
+    margin-top: 2rem;
+  }
+  .listings-container {
+    min-width: none;
+  }
 }

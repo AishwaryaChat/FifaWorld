@@ -1,12 +1,19 @@
 .layout {
-    width: 70%;
-    margin: auto;
-    padding: auto;
-
+  width: 70%;
+  margin: auto;
+  padding: auto;
 }
 
 @media screen and (max-width: 768px) {
-    .layout {
-        width: 100%
-    }
+  .layout {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .layout {
+    width: 100%;
+    margin: none;
+    padding: none;
+  }
 }

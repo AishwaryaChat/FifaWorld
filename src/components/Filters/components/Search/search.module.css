@@ -1,5 +1,11 @@
 .search-box {
-    color:aliceblue;
-    background: linear-gradient(rgba(9, 9, 121, 1), rgb(106, 0, 255));
-    border-radius: 10px;
+  color: aliceblue;
+  background: linear-gradient(rgba(9, 9, 121, 1), rgb(106, 0, 255));
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1180px) {
+  .search-box {
+    width: 200px;
+  }
 }

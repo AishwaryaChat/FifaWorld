@@ -68,10 +68,10 @@ const MarketPlace = () => {
       <h1 className={styles.title}>Marketplace</h1>
       <Container className={styles.container}>
         <Grid container spacing={1}>
-          <Grid xs={4}>
+          <Grid xs={12} sm={4} md={4}>
             <Filters />
           </Grid>
-          <Grid xs={8}>
+          <Grid xs={12} sm={8} md={8}>
             <div className={styles["listings-container"]}>
               {listings.length > 0 ? (
                 <NftListing listingData={listings} />

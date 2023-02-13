@@ -28,7 +28,9 @@ function ResponsiveAppBar() {
   return (
     <div>
       {/* For smaller screens */}
-      <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+      <Box
+        sx={{ flexGrow: 1, display: { xs: "flex", sm: "none", md: "none" } }}
+      >
         <Drawer />
         <div className={styles.logo}>
           <Image src="/fifalogo.png" alt="logo" width={200} height={200} />
@@ -39,7 +41,12 @@ function ResponsiveAppBar() {
       <AppBar position="static" className={styles.appbar}>
         <Container maxWidth="xl">
           <Toolbar disableGutters className={styles.toolbar}>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+            <Box
+              sx={{
+                flexGrow: 1,
+                display: { xs: "none", sm: "flex", md: "flex" },
+              }}
+            >
               <Image src="/fifalogo.png" alt="logo" width={200} height={200} />
               {pages.map(({ id, link, label }) => (
                 <MenuItem key={id}>
