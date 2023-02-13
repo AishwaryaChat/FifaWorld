@@ -33,7 +33,7 @@ function ResponsiveAppBar() {
       >
         <Drawer />
         <div className={styles.logo}>
-          <Image src="/fifalogo.png" alt="logo" width={200} height={200} />
+          <Image src="/fifalogo.png" alt="logo" width={100} height={100} />
         </div>
       </Box>
       {/* For bigger screens */}
@@ -45,6 +45,7 @@ function ResponsiveAppBar() {
               sx={{
                 flexGrow: 1,
                 display: { xs: "none", sm: "flex", md: "flex" },
+                flex: "100"
               }}
             >
               <Image src="/fifalogo.png" alt="logo" width={200} height={200} />

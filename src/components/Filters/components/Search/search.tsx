@@ -62,19 +62,17 @@ const SearchFilter = () => {
         onChange={handleValueChange}
         inputValue={searchText}
         onInputChange={handleChange}
-        freeSolo
         id="combo-box-demo"
+
         classes={{
           inputRoot: styles["search-box"],
-          groupLabel: styles["search-box"],
         }}
         options={options}
-        sx={{ width: 300 }}
+        sx={{ width: "80%" }}
         renderInput={(params) => (
           <TextField
             {...params}
             placeholder="eg: Netherland, USA"
-            classes={{ root: styles["search-box"] }}
             InputProps={{
               ...params.InputProps,
               endAdornment: (

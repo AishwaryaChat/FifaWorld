@@ -4,8 +4,4 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1180px) {
-  .search-box {
-    width: 200px;
-  }
-}
+

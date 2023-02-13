@@ -71,7 +71,17 @@ const MarketPlace = () => {
           <Grid xs={12} sm={4} md={4}>
             <Filters />
           </Grid>
-          <Grid xs={12} sm={8} md={8}>
+          <Grid
+            xs={12}
+            sm={8}
+            md={8}
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center"
+            }}
+          >
             <div className={styles["listings-container"]}>
               {listings.length > 0 ? (
                 <NftListing listingData={listings} />

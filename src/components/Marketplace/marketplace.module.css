@@ -1,5 +1,5 @@
 .container {
-  margin-top: 5rem;
+  margin-top: 5em;
 }
 
 .title {
@@ -19,5 +19,7 @@
   }
   .listings-container {
     min-width: none;
+    margin-top: 3em;
+    justify-content: center;
   }
 }

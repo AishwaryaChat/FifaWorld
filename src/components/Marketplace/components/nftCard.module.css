@@ -1,3 +1,7 @@
+.nft-listing-container {
+  margin: auto;
+}
+
 .card-container {
   background: linear-gradient(rgba(9, 9, 121, 1), rgb(106, 0, 255));
   color: white;
@@ -7,14 +11,24 @@
 }
 
 .card-secondary-text {
-    white-space: "pre-line";
-    color: rgb(210, 202, 202)
+  white-space: "pre-line";
+  color: rgb(210, 202, 202);
 }
 
 .card-content-upper {
-    max-height: 5rem;
+  max-height: 5rem;
 }
 
 .card-content-lower {
-    max-height: 5rem;
+  max-height: 5rem;
+}
+
+@media screen and (max-width: 756px) {
+  .card-container {
+    /* background: linear-gradient(rgba(9, 9, 121, 1), rgb(106, 0, 255));
+        color: white;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px; */
+  }
 }

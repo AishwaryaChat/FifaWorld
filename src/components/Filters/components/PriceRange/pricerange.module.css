@@ -36,9 +36,9 @@
 
 @media screen and (max-width: 1180px) {
   .text-box {
-    width: 13rem;
+    width: 90%;
   }
   .apply-button {
-    width: 13rem;
+    width: 90%;
   }
 }
