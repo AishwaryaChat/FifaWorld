@@ -1,0 +1,29 @@
+.footer {
+    margin-top: 3rem;
+    background-color: rgb(4, 1, 32);
+    height: 20vh;
+}
+.logo {
+    width: 8rem;
+        height: 6rem;
+        padding: 0px;
+        color: white
+}
+.footer-content {
+    margin-left: 15%;
+    margin-right: 15%;;
+}
+.footer-links-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+/* margin-left: 30px; */
+display: flex;
+}
+
+.margin-left-30{
+margin-left: 30px;
+
+}
