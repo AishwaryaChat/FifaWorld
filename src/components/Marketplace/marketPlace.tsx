@@ -6,7 +6,6 @@ import NftListing from "./components/nftListing";
 import { FilterContext } from "src/contexts/filterContext";
 import { useCallback, useContext, useEffect, useState } from "react";
 import ErrorComponent from "src/common/components/ErrorSnackbar/errorSnackbar";
-import getListingData from "./utils/getListingData";
 import Pagination from "src/common/components/Pagination/pagination";
 
 const MarketPlace = () => {
@@ -14,51 +13,27 @@ const MarketPlace = () => {
     filter: { search, range },
   } = useContext(FilterContext);
   const [pageNumber, setPageNumber] = useState(1);
-  const { listingsData, totalPages } = getListingData({
-    pageNumber,
-    pageSize: 9,
-  });
-  const [listings, setListingData] = useState(listingsData || []);
+  const [totalPages, setTotalPages] = useState(0) 
+  const [listings, setListingData] = useState([]);
 
-  useEffect(() => {
-    setListingData(listingsData);
-  }, [pageNumber]);
-
-  const filterListingData = useCallback(
-    (filterKey: "search" | "range") => {
-      let newData = [];
-      switch (filterKey) {
-        case "search":
-          newData =
-            search !== ""
-              ? listings.filter(({ title }) => title.toLowerCase() == search)
-              : listings;
-          break;
-        case "range":
-          const { low, high } = range;
-          newData = listings.filter(
-            ({ lowestPrice }) => lowestPrice >= low && lowestPrice <= high
-          );
-          break;
-        default:
-          newData = listings;
-          break;
+  const fetchListingData = async () => {
+    const response = await fetch("/api/marketplace", {
+      method: "POST",
+      body: JSON.stringify({ pageNumber, pageSize: 9, search, range }),
+      headers: {
+        "Content-type": "application/json"
       }
-      return newData;
-    },
-    [search, range]
-  );
+    })
 
+
+    const { listings: listingsData, totalPages } = await response.json()
+    setListingData(listingsData)
+    setTotalPages(totalPages)
+  }
   useEffect(() => {
-    const newListings = filterListingData("search");
-    setListingData(newListings);
-  }, [search]);
-
-  useEffect(() => {
-    const newListings = filterListingData("range");
-
-    setListingData(newListings);
-  }, [range.low, range.high]);
+    fetchListingData()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pageNumber, search, range.low, range.high])
 
   const handlePageChange = (e, pageNumber) => {
     setPageNumber(pageNumber);

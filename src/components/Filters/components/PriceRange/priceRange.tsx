@@ -13,7 +13,6 @@ const PriceRangeFilter = () => {
   const { filter, setFilter } = useContext(FilterContext);
   const [low, setLow] = useState(0);
   const [high, setHigh] = useState(100000);
-  console.log("filter", filter);
   const handleApplyClick = useCallback(() => {
     setFilter({ type: "UPDATE_RANGE", data: { low, high } });
   }, [low, high, setFilter]);

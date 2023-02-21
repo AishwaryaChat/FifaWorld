@@ -8,31 +8,8 @@ import {
 import styles from "./search.module.css";
 import { FilterContext } from "src/contexts/filterContext";
 import SearchIcon from "@mui/icons-material/Search";
+import {options as filterOptions} from "./contants"
 
-const options = [
-  { id: "france", label: "France" },
-  { id: "cameroon", label: "Cameroon" },
-  { id: "egypt", label: "Egypt" },
-  { id: "poland", label: "Poland" },
-  { id: "england", label: "England" },
-  { id: "australia", label: "Australia" },
-  { id: "japan", label: "Japan" },
-  { id: "argentina", label: "Argentina" },
-  { id: "italy", label: "Italy" },
-  { id: "usa", label: "USA" },
-  { id: "portugal", label: "Portugal" },
-  { id: "germany", label: "Germany" },
-  { id: "sweden", label: "Sweden" },
-  { id: "senegal", label: "Senegal" },
-  { id: "south africa", label: "South Africa" },
-  { id: "colombia", label: "Colombia" },
-  { id: "nigeria", label: "Nigeria" },
-  { id: "serbia", label: "Serbia" },
-  { id: "netherlands", label: "Netherlands" },
-  { id: "brazil", label: "Brazil" },
-  { id: "morocco", label: "Morocco" },
-  { id: "korea republic", label: "Korea Republic" },
-];
 
 const SearchFilter = () => {
   const { setFilter } = useContext(FilterContext);
@@ -67,7 +44,7 @@ const SearchFilter = () => {
         classes={{
           inputRoot: styles["search-box"],
         }}
-        options={options}
+        options={filterOptions}
         sx={{ width: "80%" }}
         renderInput={(params) => (
           <TextField
